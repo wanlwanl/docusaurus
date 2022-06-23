@@ -20,7 +20,8 @@ export default function pluginGoogleGtag(
   options: PluginOptions,
 ): Plugin {
   const {anonymizeIP, trackingID} = options;
-  const isProd = process.env.NODE_ENV === 'production';
+  //const isProd = process.env.NODE_ENV === 'production';
+  const isProd = true;
 
   return {
     name: 'docusaurus-plugin-google-gtag',
