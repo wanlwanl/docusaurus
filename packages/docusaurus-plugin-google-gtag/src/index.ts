@@ -93,6 +93,7 @@ export default function pluginGoogleGtag(
 
 const pluginOptionsSchema = Joi.object<PluginOptions>({
   trackingID: Joi.string().required(),
+  gtmTrackingID: Joi.string().required(),
   anonymizeIP: Joi.boolean().default(false),
 });
 
