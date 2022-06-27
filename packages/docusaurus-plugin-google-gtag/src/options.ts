@@ -7,6 +7,7 @@
 
 export type PluginOptions = {
   trackingID: string;
+  gtmTrackingID: string;
   anonymizeIP: boolean;
 };
 
